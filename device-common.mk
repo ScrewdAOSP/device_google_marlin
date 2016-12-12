@@ -490,3 +490,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Build gapps for now
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
+# These modules won't sanitize correctly with newer clang.
+$(call add-product-sanitizer-module-config,fec,never)
+$(call add-product-sanitizer-module-config,libfec_host,never)
