@@ -488,3 +488,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # has something to do with fingerprint. OBVIOUSLY!
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fingerprint=fpc
+
+# ADB Config
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0

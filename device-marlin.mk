@@ -76,8 +76,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vr.marlin
 
-# ADB Config and DU Updater
+# DU Updater
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp,adb \
-    ro.adb.secure=0 \
     ro.du.updater=marlin
