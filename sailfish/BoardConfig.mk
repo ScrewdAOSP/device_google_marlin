@@ -95,6 +95,14 @@ endif
 
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=sailfish user_debug=31 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=32M@0-0xffffffff
 
+TARGET_KERNEL_CONFIG := pixel_defconfig
+TARGET_KERNEL_SOURCE := kernel/google/pixel
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+TARGET_USES_UNCOMPRESSED_KERNEL := false
+
 BOARD_ROOT_EXTRA_FOLDERS := bt_firmware firmware firmware/radio persist
 BOARD_ROOT_EXTRA_SYMLINKS := /vendor/lib/dsp:/dsp
 
@@ -188,9 +196,11 @@ TARGET_BOARD_KERNEL_HEADERS := device/google/marlin/kernel-headers
 # Install odex files into the other system image
 BOARD_USES_SYSTEM_OTHER_ODEX := true
 
--include vendor/google_devices/marlin/BoardConfigVendor.mk
+-include vendor/google/marlin/BoardConfigVendor.mk
+
 # Build a separate vendor.img
 TARGET_COPY_OUT_VENDOR := vendor
+BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 
 #NFC
 NXP_CHIP_TYPE := PN551
