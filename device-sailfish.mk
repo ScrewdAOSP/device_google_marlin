@@ -44,7 +44,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     device/google/marlin/init.common.rc:root/init.sailfish.rc \
     device/google/marlin/init.common.usb.rc:root/init.sailfish.usb.rc \
-    device/google/marlin/fstab.common:root/fstab.sailfish \
     device/google/marlin/ueventd.common.rc:root/ueventd.sailfish.rc \
     device/google/marlin/init.recovery.common.rc:root/init.recovery.sailfish.rc
 
@@ -75,4 +74,8 @@ PRODUCT_PACKAGES += \
 # VR packages
 PRODUCT_PACKAGES += \
     vr.sailfish
+
+# DU Updater
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.du.updater=sailfish
 
