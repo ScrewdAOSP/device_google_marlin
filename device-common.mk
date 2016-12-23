@@ -494,3 +494,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb \
     ro.adb.secure=0
+
+# Build gapps for now
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
