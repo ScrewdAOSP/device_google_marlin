@@ -76,7 +76,8 @@ PRODUCT_PACKAGES += mksquashfsimage.sh \
 		    img2simg \
 		    mksquashfs \
 		    delta_generator \
-		    brillo_update_payload
+		    brillo_update_payload \
+		    libprotobuf-cpp-full
 
 # Audio configuration
 USE_XML_AUDIO_POLICY_CONF := 1
