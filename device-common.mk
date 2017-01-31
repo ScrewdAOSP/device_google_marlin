@@ -124,6 +124,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.voicecomm=true \
     persist.audio.fluence.voicerec=false
 
+# Qualcomm BT aptXHD
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.bt.enableAptXHD=true    
+
 # WLAN driver configuration files
 PRODUCT_COPY_FILES += \
     device/google/marlin/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf     \
