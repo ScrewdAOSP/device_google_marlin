@@ -181,6 +181,9 @@ TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_msm
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_msm
 TARGET_RECOVERY_UI_LIB := librecovery_ui_nanohub
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS := -DBATTERY_REAL_INFO
+
 #Add support for firmare upgrade on 8996
 HAVE_SYNAPTICS_DSX_FW_UPGRADE := true
 
