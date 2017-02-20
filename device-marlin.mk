@@ -75,6 +75,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vr.marlin
 
-# DU Updater
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.du.updater=marlin

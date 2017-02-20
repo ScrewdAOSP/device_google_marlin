@@ -75,7 +75,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vr.sailfish
 
-# DU Updater
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.du.updater=sailfish
 
