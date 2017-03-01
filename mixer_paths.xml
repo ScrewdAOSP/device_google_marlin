@@ -24,30 +24,30 @@
     <ctl name="HPHL Volume" value="0" />
     <ctl name="HPHR Volume" value="0" />
     <ctl name="LINEOUT1 Volume" value="0" />
-    <ctl name="RX0 Mix Digital Volume" value="84" />
-    <ctl name="RX1 Mix Digital Volume" value="84" />
-    <ctl name="RX2 Mix Digital Volume" value="84" />
-    <ctl name="RX3 Mix Digital Volume" value="84" />
-    <ctl name="RX4 Mix Digital Volume" value="84" />
-    <ctl name="RX5 Mix Digital Volume" value="84" />
-    <ctl name="RX6 Mix Digital Volume" value="84" />
-    <ctl name="RX7 Mix Digital Volume" value="84" />
-    <ctl name="RX8 Mix Digital Volume" value="84" />
+    <ctl name="RX0 Mix Digital Volume" value="94" />
+    <ctl name="RX1 Mix Digital Volume" value="94" />
+    <ctl name="RX2 Mix Digital Volume" value="94" />
+    <ctl name="RX3 Mix Digital Volume" value="94" />
+    <ctl name="RX4 Mix Digital Volume" value="94" />
+    <ctl name="RX5 Mix Digital Volume" value="94" />
+    <ctl name="RX6 Mix Digital Volume" value="94" />
+    <ctl name="RX7 Mix Digital Volume" value="94" />
+    <ctl name="RX8 Mix Digital Volume" value="94" />
     <ctl name="ADC1 Volume" value="0" />
     <ctl name="ADC2 Volume" value="0" />
     <ctl name="ADC3 Volume" value="0" />
     <ctl name="ADC4 Volume" value="0" />
     <ctl name="ADC5 Volume" value="0" />
     <ctl name="ADC6 Volume" value="0" />
-    <ctl name="DEC0 Volume" value="84" />
-    <ctl name="DEC1 Volume" value="84" />
-    <ctl name="DEC2 Volume" value="84" />
-    <ctl name="DEC3 Volume" value="84" />
-    <ctl name="DEC4 Volume" value="84" />
-    <ctl name="DEC5 Volume" value="84" />
-    <ctl name="DEC6 Volume" value="84" />
-    <ctl name="DEC7 Volume" value="84" />
-    <ctl name="DEC8 Volume" value="84" />
+    <ctl name="DEC0 Volume" value="94" />
+    <ctl name="DEC1 Volume" value="94" />
+    <ctl name="DEC2 Volume" value="94" />
+    <ctl name="DEC3 Volume" value="94" />
+    <ctl name="DEC4 Volume" value="94" />
+    <ctl name="DEC5 Volume" value="94" />
+    <ctl name="DEC6 Volume" value="94" />
+    <ctl name="DEC7 Volume" value="94" />
+    <ctl name="DEC8 Volume" value="94" />
     <ctl name="COMP1 Switch" value="0" />
     <ctl name="COMP2 Switch" value="0" />
     <ctl name="COMP3 Switch" value="0" />
@@ -865,7 +865,7 @@
         <ctl name="AMIC MUX6" value="ADC1" />
         <ctl name="IIR0 INP0 MUX" value="DEC6" />
         <ctl name="ADC1 Volume" value="18" />
-        <ctl name="DEC6 Volume" value="84" />
+        <ctl name="DEC6 Volume" value="94" />
     </path>
 
     <!-- HS MIC -->
@@ -885,7 +885,7 @@
         <ctl name="ADC MUX3" value="AMIC" />
         <ctl name="AMIC MUX3" value="ADC3" />
         <ctl name="ADC3 Volume" value="18" />
-        <ctl name="DEC3 Volume" value="84" />
+        <ctl name="DEC3 Volume" value="94" />
     </path>
 
     <path name="adc5">
@@ -977,8 +977,8 @@
         <ctl name="DMIC MUX6" value="DMIC2" />
         <ctl name="IIR0 INP0 MUX" value="DEC7" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
-        <ctl name="DEC7 Volume" value="84" />
-        <ctl name="DEC6 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="94" />
+        <ctl name="DEC6 Volume" value="94" />
     </path>
 
     <!-- Triple MIC case -->
@@ -1250,21 +1250,21 @@
         <ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
         <ctl name="RX INT0_2 MUX" value="RX0" />
         <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="RX0 Mix Digital Volume" value="84" />
+        <ctl name="RX0 Mix Digital Volume" value="94" />
         <ctl name="EAR PA Gain" value="G_6_DB" />
     </path>
 
     <!-- Phone RCV RX D:0 dB, A:6 dB -->
     <path name="voice-handset">
         <path name="handset" />
-        <ctl name="RX0 Mix Digital Volume" value="84" />
+        <ctl name="RX0 Mix Digital Volume" value="94" />
         <ctl name="EAR PA Gain" value="G_6_DB" />
     </path>
 
     <!-- Phone RCV tmus RX D:0 dB, A:6 dB -->
     <path name="voice-handset-tmus">
         <path name="handset" />
-        <ctl name="RX0 Mix Digital Volume" value="84" />
+        <ctl name="RX0 Mix Digital Volume" value="94" />
         <ctl name="EAR PA Gain" value="G_6_DB" />
     </path>
 
@@ -1273,8 +1273,8 @@
     <path name="voice-hac-handset">
         <path name="handset" />
         <ctl name="RX INT3_2 MUX" value="RX0" />
-        <ctl name="RX0 Mix Digital Volume" value="84" />
-        <ctl name="RX3 Mix Digital Volume" value="84" />
+        <ctl name="RX0 Mix Digital Volume" value="94" />
+        <ctl name="RX3 Mix Digital Volume" value="94" />
         <ctl name="EAR PA Gain" value="G_6_DB" />
         <ctl name="LINEOUT1 Volume" value="16" />
     </path>
@@ -1291,8 +1291,8 @@
         <ctl name="RX HPH Mode" value="CLS_H_LOHIFI" />
         <ctl name="COMP1 Switch" value="1" />
         <ctl name="COMP2 Switch" value="1" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
     </path>
@@ -1308,8 +1308,8 @@
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="COMP2 Switch" value="0" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
     </path>
@@ -1327,8 +1327,8 @@
     <!-- HS RX line D:0 dB, A:0 dB -->
     <path name="line">
         <path name="headphones-DRE" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
     </path>
@@ -1336,8 +1336,8 @@
     <!-- Phone HS RX D:0 dB, A:0 dB -->
     <path name="voice-headphones">
         <path name="headphones-generic" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
     </path>
@@ -1345,8 +1345,8 @@
     <!-- Phone HS line RX D:0 dB, A:0 dB -->
     <path name="voice-line">
         <path name="headphones-generic" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
     </path>
@@ -1355,7 +1355,7 @@
     <path name="headset-mic">
         <path name="adc2" />
         <ctl name="ADC2 Volume" value="8" />
-        <ctl name="DEC0 Volume" value="84" />
+        <ctl name="DEC0 Volume" value="94" />
     </path>
 
     <!-- Unprocessed-headset-mic TX D:0 dB, A:12 dB -->
@@ -1367,15 +1367,15 @@
     <path name="voice-headset-mic">
         <path name="headset-mic" />
         <ctl name="ADC2 Volume" value="14" />
-        <ctl name="DEC0 Volume" value="84" />
+        <ctl name="DEC0 Volume" value="94" />
     </path>
 
     <!-- Ring HS&SPK RX D:0 dB A:-24 dB -->
     <path name="speaker-and-headphones">
         <path name="headphones-generic" />
         <path name="speaker" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="4" />
         <ctl name="HPHR Volume" value="4" />
     </path>
@@ -1384,8 +1384,8 @@
     <path name="speaker-safe-and-headphones">
         <path name="headphones-generic" />
         <path name="speaker" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="4" />
         <ctl name="HPHR Volume" value="4" />
     </path>
@@ -1394,8 +1394,8 @@
     <path name="speaker-and-line">
         <path name="headphones-generic" />
         <path name="speaker" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="4" />
         <ctl name="HPHR Volume" value="4" />
     </path>
@@ -1404,8 +1404,8 @@
     <path name="speaker-safe-and-line">
         <path name="headphones-generic" />
         <path name="speaker" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="4" />
         <ctl name="HPHR Volume" value="4" />
     </path>
@@ -1506,16 +1506,16 @@
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="COMP2 Switch" value="0" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
     </path>
 
     <!-- TTY devices Full RX D:0 dB, A:-6dB -->
     <path name="voice-tty-full-headphones">
         <ctl name="TTY Mode" value="FULL" />
         <path name="tty-headphones" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="16" />
         <ctl name="HPHR Volume" value="16" />
     </path>
@@ -1524,15 +1524,15 @@
     <path name="voice-tty-full-headset-mic">
         <path name="adc2" />
         <ctl name="ADC2 Volume" value="8" />
-        <ctl name="DEC0 Volume" value="82" />
+        <ctl name="DEC0 Volume" value="92" />
     </path>
 
     <!-- TTY devices VCO RX D:0 dB, A:-6dB -->
     <path name="voice-tty-vco-headphones">
         <ctl name="TTY Mode" value="VCO" />
         <path name="tty-headphones" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="94" />
+        <ctl name="RX2 Mix Digital Volume" value="94" />
         <ctl name="HPHL Volume" value="16" />
         <ctl name="HPHR Volume" value="16" />
     </path>
@@ -1555,7 +1555,7 @@
     <path name="voice-tty-hco-headset-mic">
         <path name="voice-tty-full-headset-mic" />
         <ctl name="ADC2 Volume" value="8" />
-        <ctl name="DEC0 Volume" value="82" />
+        <ctl name="DEC0 Volume" value="92" />
     </path>
 
     <path name="listen-handset-mic">
