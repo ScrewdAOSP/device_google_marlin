@@ -2,5 +2,7 @@ allowxperm priv_app self:udp_socket ioctl { SIOCGIWESSID };
 
 # supress audit messages for attempting access to /firmware
 dontaudit priv_app firmware_file:dir search;
+allow priv_app device:dir read;
+allow priv_app device:dir open;
 
 r_dir_file(priv_app, sysfs_type)

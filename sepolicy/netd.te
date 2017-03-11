@@ -3,3 +3,5 @@ allow netd sysfs_net:file w_file_perms;
 
 # in addition to ioctl commands granted to domain allow netd to use:
 allowxperm netd self:udp_socket ioctl { SIOCSIFFLAGS SIOCSIFADDR SIOCGIFHWADDR };
+
+allow netd firmware_file:dir search;

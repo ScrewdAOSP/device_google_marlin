@@ -19,3 +19,5 @@ allow tee fingerprintd_data_file:file create_file_perms;
 r_dir_file(tee, persist_file)
 allow tee persist_data_file:dir create_dir_perms;
 allow tee persist_data_file:file create_file_perms;
+
+allow tee firmware_file:dir search;

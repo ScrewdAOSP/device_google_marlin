@@ -7,12 +7,18 @@ type cnss_diag_exec, exec_type, file_type;
 allow cnss_diag self:capability net_admin;
 allow cnss_diag self:capability { setgid setuid };
 allow cnss_diag self:netlink_socket create_socket_perms;
-
+allow cnss_diag wifi_data_file:file { append open read };
 auditallow cnss_diag self:capability net_admin;
+allow cnss_diag wifi_data_file:file getattr;
 
 init_daemon_domain(cnss_diag)
 r_dir_file(cnss_diag, sysfs_type)
 
+allow cnss_diag self:capability { dac_override dac_read_search };
+allow cnss_diag wifi_data_file:dir search;
+allow cnss_diag wifi_data_file:dir write;
+allow cnss_diag wifi_data_file:dir add_name;
+allow cnss_diag wifi_data_file:file create;
 
 userdebug_or_eng(`
   allow cnss_diag diag_device:chr_file rw_file_perms;

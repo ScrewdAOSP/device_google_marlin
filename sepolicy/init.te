@@ -13,3 +13,5 @@ allow init userdata_block_device:blk_file { write };
 
 allow init debugfs_sps:dir search;
 allow init debugfs_sps:file w_file_perms;
+
+allow init debugfs:file write;
