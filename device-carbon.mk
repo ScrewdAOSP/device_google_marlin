@@ -20,5 +20,9 @@ DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-carbon
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
+# UI
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.use_fifo_ui=1
+
 # Update engine
 PRODUCT_PACKAGES += brillo_update_payload
