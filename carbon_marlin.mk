@@ -23,8 +23,8 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=marlin \
-    BUILD_FINGERPRINT=google/marlin/marlin:8.0.0/OPR3.170623.007/4286350:user/release-keys \
-    PRIVATE_BUILD_DESC="marlin-user 8.0.0 OPR3.170623.007 4286350 release-keys"
+    BUILD_FINGERPRINT=google/marlin/marlin:8.0.0/OPR3.170623.008/4294783:user/release-keys \
+    PRIVATE_BUILD_DESC="marlin-user 8.0.0 OPR3.170623.008 4294783 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carbon.maintainer="Myself5"
