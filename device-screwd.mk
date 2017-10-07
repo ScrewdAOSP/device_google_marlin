@@ -34,3 +34,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Update engine
 PRODUCT_PACKAGES += brillo_update_payload
+
+# Include vendor partition in the otapackages
+AB_OTA_PARTITIONS += vendor
+
+PRODUCT_PACKAGES += \
+    libminui \
+    PresencePolling \
+    qcrilmsgtunnel \
+    libtinyxml \
+    libLLVM \
+    libmm-qcamera \
+    libsensorndkbridge

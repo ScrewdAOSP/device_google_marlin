@@ -1,0 +1,3 @@
+require board=marlin
+require version-bootloader=8996-012001-1706221457
+require version-baseband=8996-013053-1706271859
