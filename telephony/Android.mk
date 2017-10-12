@@ -1,3 +1,3 @@
-ifeq ($(Screwd_BUILD),)
+ifeq ($(SCREWD_BUILD),)
 include $(call all-subdir-makefiles)
 endif
