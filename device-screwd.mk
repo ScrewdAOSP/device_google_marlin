@@ -18,7 +18,7 @@ PRODUCT_PACKAGES += \
     nfc_nci.pn54x.default
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-carbon
+DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-screwd
 
 # Pixel Experience
 PRODUCT_COPY_FILES += \
